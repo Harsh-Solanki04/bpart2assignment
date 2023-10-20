@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">bpart2assignment</string>
+    <string name="single_column_view">Single-column view</string>
+    <string name="double_column_view">Double-column-view</string>
+</resources>
