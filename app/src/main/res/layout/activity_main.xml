@@ -34,36 +34,20 @@
             android:background="@color/colorPrimary" />
 
     </LinearLayout>
-    <LinearLayout
-        android:id="@+id/button_layout"
-        android:layout_width="match_parent"
+
+    <Button
+        android:id="@+id/toggle_view_button"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:padding="16dp"
-        android:gravity="center">
-        <Button
-            android:id="@+id/upload_button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Upload"
-            android:layout_margin="16dp"
-            android:textColor="@android:color/white"
-            android:background="@color/colorPrimary"
-            android:visibility="gone"/>
-        <Button
-            android:id="@+id/toggle_view_button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Double-column view"
-            android:layout_margin="16dp"
-            android:textColor="@android:color/white"
-            android:background="@color/colorPrimary" />
-    </LinearLayout>
+        android:text="Double-column view"
+        android:layout_margin="16dp"
+        android:textColor="@android:color/white"
+        android:background="@color/colorPrimary" />
+
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recycler_view"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"/>
+        android:layout_height="match_parent"/>
 
     <ProgressBar
         android:id="@+id/progress_bar"

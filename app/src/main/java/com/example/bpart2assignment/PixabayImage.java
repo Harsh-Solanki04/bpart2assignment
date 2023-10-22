@@ -1,7 +1,5 @@
 package com.example.bpart2assignment;
 
-import com.google.gson.annotations.SerializedName;
-
 public class PixabayImage {
     private int id;
     private String previewURL;

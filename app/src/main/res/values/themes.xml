@@ -5,5 +5,5 @@
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
     </style>
 
-    <style name="Theme.Bpart2assignment" parent="Base.Theme.Bpart2assignment" />
+    <style name="Theme.bpart2assignment" parent="Base.Theme.Bpart2assignment" />
 </resources>

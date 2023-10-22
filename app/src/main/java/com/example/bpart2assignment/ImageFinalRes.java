@@ -3,7 +3,7 @@ package com.example.bpart2assignment;
 public class ImageFinalRes {
     private int id;
     private String previewURL;
-    private String largeImageURL = "";
+    private String largeImageURL;
     private String downloadURL;
 
     public ImageFinalRes(int id, String previewURL) {
@@ -28,9 +28,7 @@ public class ImageFinalRes {
     }
 
     public void setLargeImageURL(String largeImageURL) {
-        if (largeImageURL != null) { // add check for null value
-            this.largeImageURL = largeImageURL;
-        }
+        this.largeImageURL = largeImageURL;
     }
 
     public String getDownloadURL() {
